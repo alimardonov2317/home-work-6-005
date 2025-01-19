@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import "./Products.css"
-import Loading from '../loading/loading'
+import Loading from '../loading/Loading'
 
 const Products = () => {
     const [products, setProducts] = useState(null)
