@@ -1,0 +1,50 @@
+.header {
+   background: #231d1d;
+   padding: 0 50px;
+}
+.navbar {
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar__logo a {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 25px;
+   color: #fff;
+}
+.navbar__logo img {
+   width: 65px;
+}
+.navbar__form {
+   display: flex;
+}
+.navbar__input {
+   border: none;
+   padding: 10px 40px;
+   border-radius: 10px 0 0 10px;
+}
+.navbar__btn {
+   border: none;
+   padding: 10px;
+   border-radius: 0 10px 10px 0;
+}
+.navbar__collection {
+   display: flex;
+   gap: 40px;
+   color: #fff;
+}
+
+.navbar__link {
+   color: #f7f4f3;
+   transition: all 0.3s ease;
+}
+.navbar__link:hover {
+   color: dodgerblue;
+}
+.navbar i {
+   display: none;
+}
